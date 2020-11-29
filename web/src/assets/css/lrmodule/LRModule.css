@@ -1,0 +1,129 @@
+#total{
+  height: 100vh;
+  /*background: url("../../img/lrmodule/bg.jpg");*/
+  /*background-size: cover;*/
+  position: relative;
+
+  /*background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);*/
+  /*background-image: linear-gradient(125deg, #b9f2f9, #a9f7a8, #fcffa9, #ffc199,#FFBEF4);*/
+  /*background-image: linear-gradient(125deg, #e4b8ff, #b9e87b, #c4c4c4);*/
+  background-size: 400%;
+  background-color: #f4f4f4;
+  /*animation: bganimation 15s infinite;*/
+}
+
+@keyframes bganimation{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.navbar{
+  height: 50px;
+  background: rgba(0,0,0,0.7);
+}
+.navbar .navbar-brand{
+  margin-left: 200px;
+  color: white;
+  font-family: 方正粗黑宋简体;
+  font-size: 25px;
+}
+.login-box{
+  width: 500px;
+  height: 400px;
+  background: rgba(0,0,0,0.7);
+  box-shadow: 0 0 20px black;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+}
+.login-box h3{
+  color: white;
+  font-family: Gabriola;
+  font-weight: bolder;
+}
+.login-box .login-content{
+  text-align: center;
+  margin-top: 7%;
+}
+#myTab{
+  background: rgba(74, 75, 75,0.1);
+}
+#myTab a{
+  text-align: center;
+  color: black;
+  font-family: 方正粗黑宋简体;
+  font-size: 17px;
+}
+
+/*登录整体*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: -2px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="company"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*没有账号，点击登陆*/
+.col-sm-offset-8 label{
+  width: 200px;
+  margin: 45px auto;
+  color: whitesmoke;
+}
+/*remember me 样式*/
+.form-signin label{
+  color: whitesmoke;
+}
+
+/*logo调整*/
+.navbar-brand img{
+  margin: -18px;
+  width: 200px;
+  height: 55px;
+}
+
+/*按钮调整*/
+.btn-lg{
+  margin-top: 20px;
+}
