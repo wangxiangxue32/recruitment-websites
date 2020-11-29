@@ -60,7 +60,7 @@ const selectJob = (j_name) => {
 //添加工作信息
 const addJob = (job_info) => {
   let sql=`insert into job(c_id,j_stime,j_etime,j_name,j_number,j_salary,j_type,j_treatment,j_require,j_resume,j_education,j_experience)
-  value('${job_info.c_id}',${job_info.j_stime}','${job_info.j_etime}','${job_info.j_name}','${job_info.j_number}','${job_info.j_salary}','${job_info.j_type}','${job_info.j_treatment}','${job_info.j_require}','${job_info.j_resume}','${job_info.j_education}','${job_info.j_experience}')`
+  values('${job_info.c_id}','${job_info.j_stime}','${job_info.j_etime}','${job_info.j_name}','${job_info.j_number}','${job_info.j_salary}','${job_info.j_type}','${job_info.j_treatment}','${job_info.j_require}','${job_info.j_resume}','${job_info.j_education}','${job_info.j_experience}')`
   console.log(sql)
   return exec(sql)
 }

@@ -37,9 +37,8 @@
     methods: {
       deleteRow(rows){
         deleteUserEI(rows.u_id).then(res => {
-          this.$message({
-            message: '删除成功',
-            type: 'success'
+          this.$message.success({
+            message: '删除成功'
           })
           getUserEI().then(res => {
             this.users = res.data

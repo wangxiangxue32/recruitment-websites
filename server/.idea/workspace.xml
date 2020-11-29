@@ -39,19 +39,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
+        <entry file="file://$PROJECT_DIR$/controller/jobController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="463">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/companyController.js">
+        <entry file="file://$PROJECT_DIR$/routes/job.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1331">
-              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+            <state relative-caret-position="331">
+              <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -89,20 +89,20 @@
         <option value="$PROJECT_DIR$/controller/adminController.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/job.js" />
-        <option value="$PROJECT_DIR$/controller/jobController.js" />
         <option value="$PROJECT_DIR$/controller/resumeController.js" />
         <option value="$PROJECT_DIR$/routes/resume.js" />
         <option value="$PROJECT_DIR$/controller/userController.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/controller/companyController.js" />
         <option value="$PROJECT_DIR$/routes/company.js" />
+        <option value="$PROJECT_DIR$/controller/jobController.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="57" />
-    <option name="width" value="1030" />
-    <option name="height" value="1040" />
+    <option name="x" value="11" />
+    <option name="width" value="809" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -232,21 +232,23 @@
       <workItem from="1606094226026" duration="8817000" />
       <workItem from="1606144843582" duration="774000" />
       <workItem from="1606553998773" duration="614000" />
+      <workItem from="1606636592158" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193770000" />
+    <option name="totallyTimeSpent" value="195894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="0" width="824" height="832" extended-state="1" />
+    <frame x="9" y="0" width="647" height="666" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.30837563" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17348608" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4988426" visible="true" weight="0.1911555" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4988426" visible="true" weight="0.2504673" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5011574" side_tool="true" weight="0.26533523" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -382,20 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/jobController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/job.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -407,13 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="80" selection-start-line="80" selection-end-line="84" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="95" selection-start-line="95" selection-end-line="95" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -431,17 +412,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="95" selection-start-line="95" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="836">
           <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/companyController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1331">
-          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        <state relative-caret-position="161">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/jobController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/job.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
         </state>
       </provider>
     </entry>
