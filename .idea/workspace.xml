@@ -17,7 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1210" />
+    <option name="x" value="81" />
     <option name="width" value="995" />
     <option name="height" value="1040" />
   </component>
@@ -43,7 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../application/server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -70,14 +70,17 @@
       <option name="presentableId" value="Default" />
       <updated>1606617928853</updated>
       <workItem from="1606617931821" duration="2949000" />
+      <workItem from="1606657794942" duration="50000" />
+      <workItem from="1606698659495" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2949000" />
+    <option name="totallyTimeSpent" value="3055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="968" y="0" width="796" height="832" extended-state="0" />
+    <frame x="65" y="0" width="796" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.225" />

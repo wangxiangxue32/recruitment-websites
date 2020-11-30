@@ -76,31 +76,9 @@
     },
     methods: {
       companyLogin(){
-        // if (this.company.c_email === '' || this.company.c_password === ''){
-        //   this.$message.error({
-        //     message: '账号或密码为空，请重新填写',
-        //     type: 'error'
-        //   })
-        // } else {
-        //   for (let i=0; i < this.companyData.length; i++){
-        //     if (this.companyData[i].c_email === this.company.c_email && this.companyData[i].c_password === this.company.c_password){
-        //       this.$cookies.set('companyCookie', this.companyData[i])
-        //       this.$message.success({
-        //         message: '登录成功'
-        //       })
-        //       this.$router.replace('/company_home')
-        //     } else if (this.companyData[i].c_email !== this.company.c_email && this.companyData[i].c_password !== this.company.c_password) {
-        //       this.$message.error({
-        //         message: '账号或密码不正确',
-        //       })
-        //     }
-        //   }
-        // }
-
         if (this.company.c_email === '' || this.company.c_password === ''){
           this.$message.error({
-            message: '账号或密码为空，请重新填写',
-            type: 'error'
+            message: '账号或密码为空，请重新填写'
           })
         } else {
             for (let i=0; i < this.companyData.length; i++){
@@ -112,7 +90,7 @@
                 this.$router.replace('/company_home')
               } else if (this.companyData[i].c_email !== this.company.c_email && this.companyData[i].c_password !== this.company.c_password) {
                 this.$message.error({
-                  message: '账号或密码不正确',
+                  message: '账号或密码不正确'
                 })
               }
             }

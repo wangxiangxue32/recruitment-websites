@@ -97,8 +97,7 @@
       userLogin(){
         if (this.users.u_email === '' || this.users.u_password === ''){
           this.$message.error({
-            message: '账号或密码为空，请重新填写',
-            type: 'error'
+            message: '账号或密码为空，请重新填写'
           })
         } else {
           for (let i = 0; i < this.user.length; i++) {
